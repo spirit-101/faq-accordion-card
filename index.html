@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="img-box">
+          <!-- <img
+          src="images/illustration-box-desktop.svg"
+          alt=""
+          aria-="true"
+        /> -->
+          <img
+            src="images/illustration-woman-online-desktop.svg"
+            alt=""
+            aria-="true"
+          />
+        </div>
+
+        <div class="info__box">
+          <aside class="accordion-container">
+            <h1 class="heading__primary">FAQ</h1>
+            <div class="accordion__box">
+              <div class="accordion__title-box" data-id="1">
+                <h2 class="heading__secondary accordion__title--1">
+                  How many team members can I invite?
+                </h2>
+
+                <img
+                  class="arrow arrow--1"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="accordion__text accordion__text--1">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+
+            <div class="accordion__box">
+              <div class="accordion__title-box" data-id="2">
+                <h2 class="heading__secondary accordion__title--2">
+                  What is the maximum file size?
+                </h2>
+
+                <img
+                  class="arrow arrow--2"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="accordion__text accordion__text--2">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+
+            <div class="accordion__box">
+              <div class="accordion__title-box" data-id="3">
+                <h2 class="heading__secondary accordion__title--3">
+                  How do I reset my password?
+                </h2>
+
+                <img
+                  class="arrow arrow--3"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="accordion__text accordion__text--3">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page.
+              </p>
+            </div>
+
+            <div class="accordion__box">
+              <div class="accordion__title-box" data-id="4">
+                <h2 class="heading__secondary accordion__title--4">
+                  Can I cancel my subscription?
+                </h2>
+
+                <img
+                  class="arrow arrow--4"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="accordion__text accordion__text--4">
+                Yes! Send us a message and we'll process your request no
+                questions asked.
+              </p>
+            </div>
+
+            <div class="accordion__box">
+              <div class="accordion__title-box" data-id="5">
+                <h2 class="heading__secondary accordion__title--5">
+                  Do you provide additional support?
+                </h2>
+
+                <img
+                  class="arrow arrow--5"
+                  src="images/icon-arrow-down.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+              <p class="accordion__text accordion__text--5">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
