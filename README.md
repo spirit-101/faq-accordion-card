@@ -6,7 +6,7 @@
 
 🌐 [View the live site](https://spirit-101.github.io/faq-accordion-card/)
 
-🧠 [Check out the solution](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WJg63kM9mk)
+🧠 [Check out the solution](https://www.frontendmentor.io/solutions/faq-accordion-card-pDPUcKgc18)
 
 📝 [View the challenge](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
 
